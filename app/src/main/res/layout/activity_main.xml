@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sergiobt.lab1punto1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Caracterizando tu figura"
+            android:textColor="@color/darkblue"
+            android:textSize="25sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elige la Figura que deseas"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/rCuadro"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+
+                android:text="@string/cuadro" />
+
+            <RadioButton
+                android:id="@+id/rCirculo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/circulo" />
+
+            <RadioButton
+                android:id="@+id/rTriangulo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/Triangulo" />
+
+            <RadioButton
+                android:id="@+id/rCubo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/cubo" />
+
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ingresa el Lado/Radio en cms"
+            android:inputType="number"
+            android:id="@+id/eLado"/>
+
+
+        <Button
+            android:id="@+id/bCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular" />
+
+        <TextView
+            android:id="@+id/tResultados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resultados" />
+    </LinearLayout>
+
+
+</ScrollView>

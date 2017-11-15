@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab1Punto1</string>
+    <string name="cuadro">Cuadro</string>
+    <string name="circulo">Circulo</string>
+    <string name="Triangulo">Triangulo</string>
+    <string name="cubo">Cubo</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultados">Resultados</string>
+</resources>
